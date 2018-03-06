@@ -1,0 +1,6 @@
+[package]
+name = "mish-web"
+version = "0.1.0"
+authors = ["chris13524 <chris@hichris.com>"]
+
+[dependencies]
