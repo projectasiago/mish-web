@@ -1,5 +1,5 @@
-import * as js from "../target/mish_web.d";
+declare function greet(input: string): void;
 
-export function hi() {
-	js.greet("hi");
+export function start() {
+	greet("JS");
 }
