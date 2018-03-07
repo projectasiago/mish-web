@@ -8,6 +8,7 @@ build:
 	@npm install
 	@npm run build
 	@cp src/index.html dist/index.html
+	@cp src/style.css dist/style.css
 
 .PHONY:
 build-release:
@@ -16,6 +17,7 @@ build-release:
 	@npm install
 	@npm run build -p
 	@cp src/index.html dist/index.html
+	@cp src/style.css dist/style.css
 
 .PHONY:
 clean:
