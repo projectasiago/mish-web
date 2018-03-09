@@ -20,5 +20,9 @@ build-release:
 	@cp src/style.css dist/style.css
 
 .PHONY:
+docker:
+	@docker build -t projectasiago/mish-web:latest .
+
+.PHONY:
 clean:
 	@rm -rf build target dist
