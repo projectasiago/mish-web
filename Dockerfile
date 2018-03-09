@@ -8,4 +8,4 @@ RUN make
 
 FROM nginx:1.13.9
 
-COPY --from=0 dist /usr/share/nginx/html
+COPY --from=0 /usr/src/mish-web/dist /usr/share/nginx/html
