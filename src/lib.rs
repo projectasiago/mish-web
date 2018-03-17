@@ -8,6 +8,7 @@ use wasm_bindgen::prelude::*;
 #[wasm_bindgen]
 extern {
 	fn alert(message: &str);
+	fn send(message: &str);
 }
 
 #[wasm_bindgen]

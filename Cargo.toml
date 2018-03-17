@@ -7,6 +7,6 @@ authors = ["chris13524 <chris@hichris.com>"]
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.1"
 projectasiago_mish = { git = "https://github.com/projectasiago/mish" }
 projectasiago_feta = { git = "https://github.com/projectasiago/feta" }
+wasm-bindgen = "0.1"
